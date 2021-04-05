@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header img {
+  width: 2rem;
+  order: -1;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e2e2e2;
+}
+
+header h1 {
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.125rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.125rem;
+}
+
+nav li {
+  padding: .75em 1em .6em;
+}
+
+nav a {
+  margin: auto;
+  color: #0074d9;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #000;
+}
